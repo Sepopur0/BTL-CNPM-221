@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Navbar from './layout/navbar';
-// import { Footer } from './components/Footer';
+import Footer from './layout/footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div class="sm:container mx-auto">
+  <div className="sm:container mx-auto">
     <Navbar/>
     <App />
-    {/* <Footer/> */}
+    <Footer/>
   </div>
 );
 
