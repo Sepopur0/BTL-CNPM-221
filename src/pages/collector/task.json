@@ -1,0 +1,45 @@
+[
+    {
+        "taskID": 1,
+        "id": 5,
+        "date": "10-12-2022",
+        "mcp": "MCP1",
+        "time": "8 giờ",
+        "vehicle": "Xe rác",
+        "location": "239 Đường A, Quận B, Thành phố C",
+        "status": "completed"
+    },
+
+    {
+        "taskID": 2,
+        "id": 5,
+        "date": "10-12-2022",
+        "mcp": "MCP2",
+        "time": "8 giờ",
+        "vehicle": "Xe rác",
+        "location": "239 Đường A, Quận B, Thành phố C",
+        "status": "completing"
+    },
+
+    {
+        "taskID": 3,
+        "id": 5,
+        "date": "10-12-2022",
+        "mcp": "MCP3",
+        "time": "8 giờ",
+        "vehicle": "Xe rác",
+        "location": "239 Đường A, Quận B, Thành phố C",
+        "status": "incomplete"
+    },
+
+    {
+        "taskID": 4,
+        "id": 6,
+        "date": "10-12-2022",
+        "mcp": "MCP4",
+        "time": "8 giờ",
+        "vehicle": "Xe rác",
+        "location": "239 Đường A, Quận B, Thành phố C",
+        "status": "completed"
+    }
+]
