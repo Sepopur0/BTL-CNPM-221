@@ -11,7 +11,7 @@ root.render(
   <>  
   <div className="sm:container mx-auto" >
     <Navbar/>
-    <App />
+    <div className='fix-footer'><App /></div>
     <Footer/>
   </div>
   </>

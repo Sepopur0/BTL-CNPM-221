@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom"
-import userdata from './user.json'
+import userdata from '../data/user.json'
 
 export default function Login() {
 	useEffect(() => {

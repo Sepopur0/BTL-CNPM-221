@@ -11,15 +11,13 @@ function Footer(){
             <h4>UWC 2.0</h4>
             <h5 className="list-unstyled">
               <li>Dĩ An, Bình Dương</li>
-              <li>Tòa H6</li>
             </h5>
           </div>
           {/* Column2 */}
           <div className="col">
             <h4>Liên hệ</h4>
             <ul className="list-unstyled">
-              <li>Quản lý</li>
-              <li>Nhân viên</li>
+              <li>0123 456 789</li>
             </ul>
           </div>
         </div>
