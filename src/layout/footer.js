@@ -3,14 +3,13 @@ import React from "react";
 function Footer(){
   return (
     <>
-    <div className="main-footer pt-3 mt-4">
+    <div className="main-footer pt-3 mt-4 bg-danger">
       <div className="container">
         <div className="row">
           {/* Column1 */}
           <div className="col">
             <h4>UWC 2.0</h4>
             <h5 className="list-unstyled">
-              <li>0123-456-789</li>
               <li>Dĩ An, Bình Dương</li>
               <li>Tòa H6</li>
             </h5>
@@ -24,7 +23,7 @@ function Footer(){
             </ul>
           </div>
         </div>
-        <hr />
+        <hr className="p-0 mt-0"/>
         <div className="row">
           <p className="col-sm">
             &copy;2022 UWC 2.0 | All rights reserved |
