@@ -35,7 +35,7 @@ export default function Login() {
                             if(mcp.username===data.username&&mcp.password===data.password){
 								if(mcp.type==="C"){
 									localStorage.setItem('user',mcp.emp_id);
-									navigate('/c/calendar',{state:{id:mcp.emp_id,type:'C'}});
+									navigate('/c',{state:{id:mcp.emp_id,type:'C'}});
 								}
 								else if(mcp.type==='J'){
 									localStorage.setItem('user',mcp.emp_id);

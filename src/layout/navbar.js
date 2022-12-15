@@ -84,17 +84,17 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav me-auto mb-2 mb-md-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">
+                  <button className="btn active" aria-current="page" onClick={()=>{navigate('/');}}>
                     Trang chủ
-                  </a>
+                  </button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/b/calendar">
+                  <button className="btn" onClick={()=>{navigate('/c/calendar',{state:{id:userid,type:type}});}}>
                     Xem lịch biểu
-                  </a>
+                  </button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link">Xem hồ sơ</a>
+                  <button className="btn">Xem hồ sơ</button>
                 </li>
               </ul>
               <form className="d-flex rightheader align-items-center">
@@ -113,9 +113,9 @@ function Navbar() {
                   </button>
                   <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
                     <li>
-                      <button className="dropdown-item" onClick={()=>{window.localStorage.clear();navigate('/');}}>
+                      <a className="dropdown-item" href="#">
                         Đăng xuất
-                      </button>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -152,17 +152,17 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav me-auto mb-2 mb-md-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">
+                  <button className="btn active" aria-current="page" onClick={()=>{navigate('/');}}>
                     Trang chủ
-                  </a>
+                  </button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/j">
+                  <button className="btn" onClick={()=>{navigate('/j/calendar',{state:{id:userid,type:type}});}}>
                     Xem lịch biểu
-                  </a>
+                  </button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link">Xem hồ sơ</a>
+                  <button className="btn">Xem hồ sơ</button>
                 </li>
               </ul>
               <form className="d-flex rightheader align-items-center">
@@ -220,17 +220,17 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav me-auto mb-2 mb-md-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">
+                  <button className="btn active" aria-current="page" onClick={()=>{navigate('/');}}>
                     Trang chủ
-                  </a>
+                  </button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/c/calendar">
+                  <button className="btn" onClick={()=>{navigate('/c/calendar',{state:{id:userid,type:type}});}}>
                     Xem lịch biểu
-                  </a>
+                  </button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link">Xem hồ sơ</a>
+                  <button className="btn">Xem hồ sơ</button>
                 </li>
               </ul>
               <form className="d-flex rightheader align-items-center">
@@ -249,9 +249,9 @@ function Navbar() {
                   </button>
                   <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <button className="dropdown-item" onClick={()=>{window.localStorage.clear();navigate('/');}}>
                         Đăng xuất
-                      </a>
+                      </button>
                     </li>
                   </ul>
                 </div>

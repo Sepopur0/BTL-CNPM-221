@@ -107,7 +107,7 @@ const Slider = () => {
     };
     return (
       <div>
-        <h1>Hello monsterlessons</h1>
+        <h3>Xin chào</h3>
         <div style={containerStyles}>
           <ImageSlider slides={slides} />
         </div>
