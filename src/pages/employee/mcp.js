@@ -13,17 +13,17 @@ const Mcp = (props) =>{
     }
     
     if (Checkvalue === "incomplete") {
-        button = <button className='btn btn-primary col-2 p-0 rounded-0 rounded-end outer text-wrap text-center' onClick={In}>
+        button = <button className='btn btn-primary col-1 p-0 rounded-0 rounded-end outer text-wrap text-center' onClick={In}>
                     Check in
                 </button>
     }
     else if (Checkvalue === "completing"){
-        button = <button className='btn btn-warning col-2 p-0 rounded-0 rounded-end outer text-wrap text-center' onClick={Out}>
+        button = <button className='btn btn-warning col-1 p-0 rounded-0 rounded-end outer text-wrap text-center' onClick={Out}>
                     Check out
                 </button>
     }
     else{
-        button = <button className='btn btn-success col-2 p-0 rounded-0 rounded-end outer text-wrap text-center'>
+        button = <button className='btn btn-success col-1 p-0 rounded-0 rounded-end outer text-wrap text-center'>
                     Xong
                 </button>
     }
