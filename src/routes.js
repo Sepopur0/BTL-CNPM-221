@@ -4,6 +4,8 @@ import Collectors from "./pages/employee";
 import CCalendar from "./pages/employee/view-calendar";
 import Ctask from "./pages/employee/view-task";
 import Login from "./pages/login/login";
+import Croute from "./pages/employee/view-route";
+
 const Routes = [
     { path: '/', exact: true, name: 'Home' },
     { path: '/login', name: 'Login', element: Login, exact: true },
@@ -16,5 +18,7 @@ const Routes = [
     { path: '/c',exact:true, name: 'Collectors', element: Collectors },
     { path: '/c/calendar',exact:true, name: 'CCalendar', element: CCalendar },
     { path: '/c/view-task',exact:true, name: 'Ctask', element: Ctask },
+    { path: '/c/view-route',exact:true, name: 'Croute', element: Croute }
+
 ];
 export default Routes;
