@@ -12,6 +12,21 @@ code {
     monospace;
 }
 
+.headBar{
+  background-color: #F2E8CF;
+  font-size: 24px;
+}
+
+.headBar div > a{
+  color: #386641;
+}
+
+.rightheader a{
+  margin-right: 20px;
+  font-weight: bold;
+  color: #386641;
+}
+
 .main-footer{
   color: white;
   background-color: #dc3545;
