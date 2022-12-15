@@ -1,10 +1,38 @@
 import React, {useState} from 'react';
 import './mcp.css'
+import data from './task.json'
 
 const Mcp = (props) =>{
+    const [Checkvalue, setValue] = useState(props.status);
+    let button;
     const doST = (e) =>{
         console.log("ass");
     }
+
+    const In = (e) =>{
+        setValue("completing");
+    }
+
+    const Out = (e) =>{
+        setValue("completed");
+    }
+    
+    if (Checkvalue === "incomplete") {
+        button = <div className='bg-primary col-2 p-0 rounded-end outer text-wrap text-center' onClick={In}>
+                    {'Check \n in'}
+                </div>
+    }
+    else if (Checkvalue === "completing"){
+        button = <div className='bg-warning col-2 p-0 rounded-end outer text-wrap text-center' onClick={Out}>
+                    Check out
+                </div>
+    }
+    else{
+        button = <div className='bg-success col-2 p-0 rounded-end outer text-wrap text-center'>
+                    Done
+                </div>
+    }
+
     return (
         <>
             <div className='container text-start mb-2 p-0 row'>
@@ -17,9 +45,7 @@ const Mcp = (props) =>{
                         <div className='m-1'>Địa chỉ: {props.location}</div>                    
                     </div>
                 </div>
-                <div className='bg-success col-1 p-0 rounded-end outer text-wrap' onClick={doST}>
-                    Check in
-                </div>
+                {button}
             </div>
         </>
     )
