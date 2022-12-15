@@ -3,7 +3,7 @@ import React from "react";
 function Footer(){
   return (
     <>
-    <div className="main-footer pt-3 mt-4 bg-danger">
+    <div className="main-footer pt-3 bg-danger" >
       <div className="container">
         <div className="row">
           {/* Column1 */}
