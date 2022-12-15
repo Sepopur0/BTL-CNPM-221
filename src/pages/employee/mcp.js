@@ -17,7 +17,7 @@ const Mcp = (props) =>{
                         <div className='m-1'>Địa chỉ: {props.location}</div>                    
                     </div>
                 </div>
-                <div className='bg-success col-2 p-0 rounded-end outer' onClick={doST}>
+                <div className='bg-success col-1 p-0 rounded-end outer text-wrap' onClick={doST}>
                     Check in
                 </div>
             </div>

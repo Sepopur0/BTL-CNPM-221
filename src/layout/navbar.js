@@ -1,23 +1,22 @@
 import React from "react";
-
 function Navbar() {
     return(
         <nav className="navbar navbar-expand-md navbar-dark bg-dark mb-4">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">Top navbar</a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-                </button>
+                {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> */}
+                <div className="navbar-toggler-icon"><img className="img-fluid" src="http://localhost:3000/logo.png"/></div>
+                {/* </button> */}
+                <a className="navbar-brand" href="#">UWC 2.0</a>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                 <ul className="navbar-nav me-auto mb-2 mb-md-0">
                     <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="/">Home</a>
+                    <a className="nav-link active" aria-current="page" href="/">Trang chủ</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="/c">Link</a>
+                    <a className="nav-link" href="/c">Xem lịch biểu</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link disabled">Disabled</a>
+                    <a className="nav-link" href="#">Xem hồ sơ</a>
                     </li>
                 </ul>
                 <form className="d-flex" role="search">

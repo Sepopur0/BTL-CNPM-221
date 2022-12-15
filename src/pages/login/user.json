@@ -1,0 +1,26 @@
+[
+    {
+        "username": "Back_O",
+        "password": "122233",
+        "emp_id": 1,
+        "type": "B"
+    },
+    {
+        "username": "Janitor1",
+        "password": "123456",
+        "emp_id": 2,
+        "type": "J"
+    },
+    {
+        "username": "Janitor2",
+        "password": "abcxyz",
+        "emp_id": 3,
+        "type": "J"
+    },
+    {
+        "username": "Collector1",
+        "password": "ilovemrthuan",
+        "emp_id": 4,
+        "type": "C"
+    }
+]

@@ -1,10 +1,12 @@
 import { AssignMCPs, AssignTask, AssignVehicle, ViewCalendar } from "./pages/BO/task asignment/components";
 import TaskAssignment from "./pages/BO/task asignment/taskAssignment";
-import Collectors from "./pages/collector";
-import CCalendar from "./pages/collector/view-calendar";
-import Ctask from "./pages/collector/view-task";
+import Collectors from "./pages/employee";
+import CCalendar from "./pages/employee/view-calendar";
+import Ctask from "./pages/employee/view-task";
+import Login from "./pages/login/login";
 const Routes = [
     { path: '/', exact: true, name: 'Home' },
+    { path: '/login', name: 'Login', element: Login, exact: true },
     { path: '/task-assignment', name: 'TaskAssignment', element: TaskAssignment, exact: true },
     { path: '/task-assignment/view-calendar', name: 'View', element: ViewCalendar },
     { path: '/task-assignment/assign-task', name: 'AssignTask', element: AssignTask },
