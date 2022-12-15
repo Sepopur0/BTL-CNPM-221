@@ -13,7 +13,7 @@ export default function Login() {
 	return (
 		<div className="container d-flex justify-content-center">
 			<form
-				className="col-5 form-group p-3 border border-1 border-grey"
+				className="col-8 form-group p-3 border border-1 border-grey rounded-1"
 				onSubmit={(e) => {
 					e.preventDefault()
 					const data = {
@@ -34,12 +34,15 @@ export default function Login() {
                         userdata.map((mcp)=>{
                             if(mcp.username===data.username&&mcp.password===data.password){
 								if(mcp.type==="C"){
+									localStorage.setItem('user',mcp.emp_id);
 									navigate('/c/calendar',{state:{id:mcp.emp_id,type:'C'}});
 								}
 								else if(mcp.type==='J'){
+									localStorage.setItem('user',mcp.emp_id);
 									navigate('/j',{state:{id:mcp.emp_id,type:'J'}});
 								}
 								else if(mcp.type==='B'){
+									localStorage.setItem('user',mcp.emp_id);
 									navigate('/b',{state:{id:mcp.emp_id,type:'B'}});
 								}
                             }

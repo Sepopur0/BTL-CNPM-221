@@ -2,17 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Navbar from './layout/navbar';
-import Footer from './layout/footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>  
   <div className="sm:container mx-auto" >
-    <Navbar/>
     <div className='fix-footer'><App /></div>
-    <Footer/>
   </div>
   </>
 );

@@ -3,12 +3,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
-
+import Navbar from './layout/navbar';
+import Footer from './layout/footer';
 import routes from '../src/routes'
 
 function App() {
   return (
     <BrowserRouter>
+      <Navbar/>
       <Routes>
         {routes.map((route, idx) => {
             return (
@@ -25,6 +27,7 @@ function App() {
           })}
         {/* <Route path='/' element={<Homepage />} /> */}
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
