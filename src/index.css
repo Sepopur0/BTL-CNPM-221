@@ -30,10 +30,11 @@ code {
   color: #386641;
 }
 
-.main-footer{
+.footer{
   color: white;
   background-color: #dc3545;
   position: fixed;
+  margin-top: 5px;
   bottom: 0;
   width: 100%;
 };

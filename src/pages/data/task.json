@@ -63,5 +63,35 @@
         "vehicle": "Xe rác",
         "location": "29 Đường M, Quận B, Thành phố C",
         "status": "incomplete"
+    },
+    {
+        "taskID": 1,
+        "id": 3,
+        "date": "10-12-2022",
+        "mcp": "MCP1",
+        "time": "6 giờ",
+        "vehicle": "Xe đẩy",
+        "location": "138 Đường A, Quận B, Thành phố C",
+        "status": "completed"
+    },
+    {
+        "taskID": 2,
+        "id": 3,
+        "date": "10-12-2022",
+        "mcp": "MCP1",
+        "time": "13 giờ",
+        "vehicle": "Xe đẩy",
+        "location": "138 Đường A, Quận B, Thành phố C",
+        "status": "incomplete"
+    },
+    {
+        "taskID": 3,
+        "id": 3,
+        "date": "10-12-2022",
+        "mcp": "MCP1",
+        "time": "20 giờ",
+        "vehicle": "Xe đẩy",
+        "location": "138 Đường A, Quận B, Thành phố C",
+        "status": "incomplete"
     }
 ]

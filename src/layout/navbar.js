@@ -84,7 +84,7 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav me-auto mb-2 mb-md-0">
                 <li className="nav-item">
-                  <button className="btn active" aria-current="page" onClick={()=>{navigate('/');}}>
+                  <button className="btn" aria-current="page" onClick={()=>{navigate('/');}}>
                     Trang chủ
                   </button>
                 </li>
@@ -113,9 +113,9 @@ function Navbar() {
                   </button>
                   <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
                     <li>
-                      <a className="dropdown-item" href="#">
+                    <button className="dropdown-item" onClick={()=>{window.localStorage.clear();navigate('/');}}>
                         Đăng xuất
-                      </a>
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -152,7 +152,7 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav me-auto mb-2 mb-md-0">
                 <li className="nav-item">
-                  <button className="btn active" aria-current="page" onClick={()=>{navigate('/');}}>
+                  <button className="btn" aria-current="page" onClick={()=>{navigate('/');}}>
                     Trang chủ
                   </button>
                 </li>
@@ -181,9 +181,9 @@ function Navbar() {
                   </button>
                   <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
                     <li>
-                      <a className="dropdown-item" href="#">
+                    <button className="dropdown-item" onClick={()=>{window.localStorage.clear();navigate('/');}}>
                         Đăng xuất
-                      </a>
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -220,7 +220,7 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav me-auto mb-2 mb-md-0">
                 <li className="nav-item">
-                  <button className="btn active" aria-current="page" onClick={()=>{navigate('/');}}>
+                  <button className="btn" aria-current="page" onClick={()=>{navigate('/');}}>
                     Trang chủ
                   </button>
                 </li>

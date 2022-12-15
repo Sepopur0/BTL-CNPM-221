@@ -94,7 +94,7 @@ const ImageSlider = ({ slides }) => {
 
 const Slider = () => {
     const slides = [
-      { url: "http://localhost:3000/logo.png", title: "logo" },
+      { url: "http://localhost:3000/image0.jpg", title: "recycle" },
       { url: "http://localhost:3000/image1.jpg", title: "janitor" },
       { url: "http://localhost:3000/image2.jpg", title: "collector1" },
       { url: "http://localhost:3000/image3.jpg", title: "collector2" },
