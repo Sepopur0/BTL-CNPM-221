@@ -34,13 +34,13 @@ export default function Login() {
                         userdata.map((mcp)=>{
                             if(mcp.username===data.username&&mcp.password===data.password){
 								if(mcp.type==="C"){
-									navigate('/c',{state:{id:mcp.emp_id}});
+									navigate('/c/calendar',{state:{id:mcp.emp_id,type:'C'}});
 								}
 								else if(mcp.type==='J'){
-									navigate('/j',{state:{id:mcp.emp_id}});
+									navigate('/j',{state:{id:mcp.emp_id,type:'J'}});
 								}
 								else if(mcp.type==='B'){
-									navigate('/b',{state:{id:mcp.emp_id}});
+									navigate('/b',{state:{id:mcp.emp_id,type:'B'}});
 								}
                             }
                         })

@@ -15,6 +15,7 @@ const Routes = [
     { path: '/task-assignment/assign-route', name: 'AssignRoute', element: AssignRoute },
     { path: '/c',exact:true, name: 'Collectors', element: Collectors },
     { path: '/c/calendar',exact:true, name: 'CCalendar', element: CCalendar },
-    { path: '/c/view-task',exact:true, name: 'Ctask', element: Ctask },
+    { path: 'c/view-task', name: 'Ctask', element: Ctask },
+    { path: 'j/view-task', name: 'Jtask', element: Ctask },
 ];
 export default Routes;

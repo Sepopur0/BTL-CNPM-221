@@ -39,10 +39,10 @@ function Navbar() {
               <a className="nav-link">Xem hồ sơ</a>
             </li>
           </ul>
-          <form className="d-flex rightheader">
-            <a className="bi bi-gear me-4" href="/"></a>
-            <a className="bi bi-chat me-4" href="/"></a>
-            <a className="bi bi-bell me-4" href="/"></a>
+          <form className="d-flex rightheader align-items-center">
+            <a className="bi bi-gear " href="/"></a>
+            <a className="bi bi-chat " href="/"></a>
+            <a className="bi bi-bell " href="/"></a>
             <div className="dropdown">
               <button
                 className="btn btn-success dropdown-toggle"
