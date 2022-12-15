@@ -22,5 +22,11 @@
         "password": "ilovemrthuan",
         "emp_id": 4,
         "type": "C"
+    },
+    {
+        "username": "Janitor3",
+        "password": "nothashed",
+        "emp_id": 5,
+        "type": "C"
     }
 ]

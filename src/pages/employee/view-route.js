@@ -1,5 +1,5 @@
-import React, {useEffect, useState} from 'react';
-import routeData from './route.json'
+import React from 'react';
+import routeData from '../data/route.json'
 import {useLocation } from "react-router-dom";
 
 function Croute(){

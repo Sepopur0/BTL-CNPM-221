@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import taskData from './task.json'
+import taskData from '../data/task.json'
 import { useNavigate,useLocation } from "react-router-dom";
 import ReactPaginate from 'react-paginate';
 import Mcp from './mcp';
